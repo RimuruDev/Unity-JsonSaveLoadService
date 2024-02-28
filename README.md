@@ -3,6 +3,25 @@
 ## Overview
 `JsonSaveLoadService` is a flexible and powerful service designed for saving and loading data in Unity applications. It supports various data types including primitives, custom objects, and collections like Dictionary, HashSet, List, Queue, and Stack. This service ensures cross-platform compatibility (PC, Android, Web) and includes functionality for handling default values when loading data for the first time.
 
+## Dependencies
+This service requires the Newtonsoft.Json library for JSON serialization and deserialization. Specifically, it depends on the Unity package `com.unity.nuget.newtonsoft-json` version `3.2.1`.
+
+## Installing Newtonsoft.Json in Unity
+To use `JsonSaveLoadService` in your project, you must first ensure that Newtonsoft.Json is properly installed. Follow these steps to install the Newtonsoft.Json package through Unity's Package Manager:
+
+1. Open your Unity project.
+2. Navigate to `Window` > `Package Manager`.
+3. Click the `+` button in the top left corner of the Package Manager window.
+4. Select `Add package from git URL...`.
+5. Enter `com.unity.nuget.newtonsoft-json@3.2.1` and click `Add`.
+6. Unity will download and install the Newtonsoft.Json package.
+
+Alternatively, you can manually edit your project's `Packages/manifest.json` file to include the following line in the `dependencies` section:
+
+```json
+"com.unity.nuget.newtonsoft-json": "3.2.1"
+```
+
 ## Usage
 
 ### Saving Data
