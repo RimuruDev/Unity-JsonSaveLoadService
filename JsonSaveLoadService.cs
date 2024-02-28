@@ -1,3 +1,4 @@
+// Resharper disable all
 // **************************************************************** //
 //
 //   Copyright (c) RimuruDev. All rights reserved.
@@ -18,7 +19,7 @@ using Newtonsoft.Json;
 using UnityEditor;
 #endif
 
-namespace AbyssMoth.Internal.Codebase.Infrastructure.StorageService
+namespace RimuruDev.StorageService
 {
     public sealed class JsonSaveLoadService : ISaveLoadService
     {
