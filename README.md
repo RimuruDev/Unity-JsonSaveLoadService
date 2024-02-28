@@ -1,4 +1,34 @@
-# JsonSaveLoadService
+<h1 align="center">⭐ Json Save Load Service ⭐</h1>
+<p align="center">
+  <a>
+    <img alt="Made With Unity" src="https://img.shields.io/badge/made%20with-Unity-57b9d3.svg?logo=Unity">
+  </a>
+  <a>
+    <img alt="License" src="https://img.shields.io/github/license/RimuruDev/Unity-JsonSaveLoadService?logo=github">
+  </a>
+  <a>
+    <img alt="Last Commit" src="https://img.shields.io/github/last-commit/RimuruDev/Unity-JsonSaveLoadService?logo=Mapbox&color=orange">
+  </a>
+  <a>
+    <img alt="Repo Size" src="https://img.shields.io/github/repo-size/RimuruDev/Unity-JsonSaveLoadService?logo=VirtualBox">
+  </a>
+  <a>
+    <img alt="Downloads" src="https://img.shields.io/github/downloads/RimuruDev/Unity-JsonSaveLoadService/total?color=brightgreen">
+  </a>
+  <a>
+    <img alt="Last Release" src="https://img.shields.io/github/v/release/RimuruDev/Unity-JsonSaveLoadService?include_prereleases&logo=Dropbox&color=yellow">
+  </a>
+  <a>
+    <img alt="GitHub stars" src="https://img.shields.io/github/stars/RimuruDev/Unity-JsonSaveLoadService?branch=main&label=Stars&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat">
+  </a>
+  <a>
+    <img alt="GitHub user stars" src="https://img.shields.io/github/stars/RimuruDev?affiliations=OWNER&branch=main&label=User%20Stars&logo=GitHub&logoColor=ffffff&labelColor=282828&color=informational&style=flat">
+  </a>
+  <a>
+    <img alt="" src="https://img.shields.io/github/watchers/RimuruDev/Unity-JsonSaveLoadService?style=flat">
+  </a>
+</p>
+
 
 ## Overview
 `JsonSaveLoadService` is a flexible and powerful service designed for saving and loading data in Unity applications. It supports various data types including primitives, custom objects, and collections like Dictionary, HashSet, List, Queue, and Stack. This service ensures cross-platform compatibility (PC, Android, Web) and includes functionality for handling default values when loading data for the first time.
