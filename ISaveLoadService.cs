@@ -1,3 +1,4 @@
+// Resharper disable all
 // **************************************************************** //
 //
 //   Copyright (c) RimuruDev. All rights reserved.
@@ -9,7 +10,7 @@
 //
 // **************************************************************** //
 
-namespace AbyssMoth.Internal.Codebase.Infrastructure.StorageService
+namespace RimuruDev.StorageService
 {
     public interface ISaveLoadService
     {
