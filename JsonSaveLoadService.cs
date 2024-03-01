@@ -21,6 +21,7 @@ using UnityEditor;
 
 namespace RimuruDev.StorageService
 {
+    [HelpURL("https://github.com/RimuruDev/Unity-JsonSaveLoadService")]
     public sealed class JsonSaveLoadService : ISaveLoadService
     {
         private const string FileFormat = ".json";
